@@ -1,0 +1,63 @@
+.body-calculator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.row{
+  background-color: aliceblue;
+  filter: drop-shadow(0 0 0.5rem #1f1f1f);
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  flex-basis: 3;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.child{
+  flex: 1 1 15%;
+  font-family: "Muli", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  border: 1px solid #efefef;
+  padding: 2rem;
+  user-select: none;
+  transition: all .15s ease;
+}
+
+.child:hover{
+  background-color: #eaeaf3;
+}
+
+.child:active{
+  background-color: #dfdfdf;
+  transform: scale(0.8);
+}
+
+.text-view{
+  flex: 1 1 100%;
+  padding: 1rem;
+}
+
+p.input{
+  border: none;
+  background-color: transparent;
+  font-family: "Muli", sans-serif;
+  font-weight: 200;
+  color: #03A9F4;
+  opacity: 0.6;
+  font-size: 36px;
+  width: 100%;
+}
+
+h1{
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: rgb(255, 60, 60);
+}
